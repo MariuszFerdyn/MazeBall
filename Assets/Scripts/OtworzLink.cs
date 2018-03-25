@@ -1,0 +1,16 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class OtworzLink : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void OnMouseDown () {
+		Application.OpenURL ("http://mazeball.azurewebsites.net/ ");
+	}
+}
